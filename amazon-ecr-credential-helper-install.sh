@@ -1,4 +1,5 @@
 #!/bin/bash
+
 # This script installs and configures "amazon-ecr-credential-helper" on EC2 instance
 # so that docker can pull images from ECR without executing "docker login" command.
 # It also provides ability to pull docker images directly from ECR when a service is
