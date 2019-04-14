@@ -8,6 +8,6 @@ created in swarm mode and deployed on different instances.
 - Execute the script as ec2-user
 - After executing this script run docker service with "--with-registry-auth", it should work fine
 - References:
-> https://github.com/awslabs/amazon-ecr-credential-helper
-> https://gist.github.com/tegansnyder/a2e36d09c13cc49b452dcc641981bc27
-> https://github.com/moby/moby/issues/25619
+  - https://github.com/awslabs/amazon-ecr-credential-helper
+  - https://gist.github.com/tegansnyder/a2e36d09c13cc49b452dcc641981bc27
+  - https://github.com/moby/moby/issues/25619
