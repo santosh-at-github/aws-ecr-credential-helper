@@ -6,7 +6,8 @@ created in swarm mode and deployed on different instances.
 
 - Works on RHEL7. Haven't tested on any-other OS yet.
 - Execute the script as ec2-user
-- After executing this script run docker service with "--with-registry-auth", it should work fine
+- After executing this script, run docker service with "--with-registry-auth", it should work fine.
+- Eg: docker service create -d --name test123 --with-registry-auth <AWS_Account_ID>.dkr.ecr.<region>.amazonaws.com/my_first_repo/web_apps:v1
 - References:
   - https://github.com/awslabs/amazon-ecr-credential-helper
   - https://gist.github.com/tegansnyder/a2e36d09c13cc49b452dcc641981bc27
